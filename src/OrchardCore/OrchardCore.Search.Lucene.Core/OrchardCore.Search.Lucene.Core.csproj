@@ -17,6 +17,10 @@
   <ItemGroup>
     <PackageReference Include="Lucene.Net.QueryParser" />
     <PackageReference Include="Lucene.Net.Spatial" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <ProjectReference Include="..\OrchardCore.Queries.Abstractions\OrchardCore.Queries.Abstractions.csproj" />
     <ProjectReference Include="..\OrchardCore.Search.Lucene.Abstractions\OrchardCore.Search.Lucene.Abstractions.csproj" />
   </ItemGroup>
